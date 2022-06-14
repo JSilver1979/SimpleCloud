@@ -12,7 +12,7 @@ public class GuiApp extends Application {
     public void start(Stage stage) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(GuiApp.class.getResource("gui.fxml"));
         Scene scene = new Scene(fxmlLoader.load(), 800, 600);
-        stage.setTitle("Hello!");
+        stage.setTitle("Simple Cloud file manager");
         stage.setScene(scene);
         stage.show();
     }
